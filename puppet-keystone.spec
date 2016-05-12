@@ -6,7 +6,7 @@ License:        Apache-2.0
 
 URL:            https://launchpad.net/puppet-keystone
 
-Source0:        https://github.com/openstack/puppet-keystone/archive/%{version}.tar.gz
+Source0: 	http://tarballs.openstack.org/%{name}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
