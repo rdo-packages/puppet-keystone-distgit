@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_3fd59343",
+        "filename": "puppet-keystone.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-27T23:30:02Z",
+      "side": 1,
+      "message": "@amoralej @jpena could this be renamed to something nicer e.g. RDO maintainers \u003crdo-list@redhat.com\u003e ?",
+      "range": {
+        "startLine": 49,
+        "startChar": 18,
+        "endLine": 49,
+        "endChar": 27
+      },
+      "revId": "12fe312e14e8a41af3da2db147d5e15c3c3b9e03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
