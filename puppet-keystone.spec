@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-keystone
-Version:        XXX
-Release:        XXX
+Version:        13.3.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Keystone
 License:        ASL 2.0
 
@@ -46,6 +46,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keystone/
 
 
 %changelog
+* Mon Aug 20 2018 RDO <dev@lists.rdoproject.org> 13.3.0-1
+- Update to 13.3.0
+
 #(trown) empty commit to use:
 # https://github.com/redhat-openstack/rdoinfo/commit/28ee76369bf9bd357a5e2409b588856513cbe83d
 # This should be removed on the next commit to puppet-keystone-distgit
