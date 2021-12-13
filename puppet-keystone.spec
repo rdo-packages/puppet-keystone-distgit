@@ -68,3 +68,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keystone/
 # This should be removed on the next commit to puppet-keystone-distgit
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-keystone/commit/c1e3ff8c48ccdf8dbe5f4fd4e3563758c03f4dc1
