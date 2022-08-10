@@ -25,6 +25,7 @@ BuildRequires:  openstack-macros
 %endif
 
 Requires:       puppet-apache
+Requires:       puppet-concat
 Requires:       puppet-inifile
 Requires:       puppet-openstacklib
 Requires:       puppet-oslo
