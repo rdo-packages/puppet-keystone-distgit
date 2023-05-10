@@ -69,3 +69,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keystone/
 # This should be removed on the next commit to puppet-keystone-distgit
 
 
+
+
