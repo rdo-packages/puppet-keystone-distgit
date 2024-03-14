@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57c41835_18439cc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2024-03-14T03:11:11Z",
+      "side": 1,
+      "message": "looks like a infra problem\n\n```\nDEBUG: Errors during downloading metadata for repository \u0027crb\u0027:\nDEBUG:   - Status code: 503 for https://mirrors.centos.org/metalink?repo\u003dcentos-crb-9-stream\u0026arch\u003dx86_64\u0026protocol\u003dhttps,http (IP: 8.43.85.67)\nDEBUG: Error: Failed to download metadata for repo \u0027crb\u0027: Cannot prepare internal mirrorlist: Status code: 503 for https://mirrors.centos.org/metalink?repo\u003dcentos-crb-9-stream\u0026arch\u003dx86_64\u0026protocol\u003dhttps,http \n```",
+      "revId": "8ec64f220beb3cebf6a39b27e7e04fb98fe126cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
