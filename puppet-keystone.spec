@@ -2,7 +2,7 @@
 %global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-keystone
-Version:        22.1.0
+Version:        22.1.1
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Keystone
 License:        ASL 2.0
@@ -64,6 +64,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keystone/
 
 
 %changelog
+* Thu Jan 23 2025 RDO <dev@lists.rdoproject.org> 22.1.1-1
+- Update to 22.1.1
+
 * Wed Dec 11 2024 RDO <dev@lists.rdoproject.org> 22.1.0-1
 - Update to 22.1.0
 
